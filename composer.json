@@ -1,0 +1,19 @@
+{
+    "name": "slexx/server",
+    "description": "Get server info, CPU usage, RAM usage, OS info etc.",
+    "keywords": ["os", "cpu", "ram"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "slexx1234@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Slexx\\": "src/"
+        }
+    }
+}
